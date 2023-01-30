@@ -3,15 +3,19 @@ package modelo;
 public class Estudiante {
 
     public String nombre;
-    public String carrera;
 
-    public Estudiante(String nombre, String carrera) {
+
+    public Estudiante(String nombre) {
         this.nombre = nombre;
-        this.carrera = carrera;
+
     }
 
-    void guardarEstudiante() {
+    public void guardarEstudiante() {
         System.out.println("Guardando estudiante en base de datos");
+    }
+
+    public void verMaterias() {
+        System.out.println(" ");
     }
 
 }
