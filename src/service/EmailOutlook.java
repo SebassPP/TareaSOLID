@@ -1,11 +1,12 @@
 package service;
 
-import modelo.Envio;
-
+import envio.Envio;
 public class EmailOutlook {
 
-    void enviarEmail(Envio envio) {
+
+    public static void enviarEmail() {
+
         System.out.println("ESTABLECIENDO CONEXION CON EL SERVIDOR");
-        System.out.println("EMAIL ENVIADO y correspondencia " + envio);
+        System.out.println("EMAIL ENVIADO y correspondencia "  );
     }
 }

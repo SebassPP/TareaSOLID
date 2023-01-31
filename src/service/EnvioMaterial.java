@@ -1,6 +1,6 @@
 package service;
 
-import modelo.Envio;
+import envio.Envio;
 import modelo.Estudiante;
 
 import java.util.ArrayList;
@@ -9,8 +9,8 @@ public class EnvioMaterial {
 
     //Por que mierda el saludo del director esta en envio de material????
     public void enviarMaterialEstudiante(Estudiante estudiante) {
-        /*
-        if (estudiante.carrera.equals("Informatica")) {
+
+        /* if (estudiante.carrera.equals("Informatica")) {
             Envio envio = new Envio();
             envio.material = new ArrayList<>();
             envio.material.add("Computador");
@@ -26,6 +26,6 @@ public class EnvioMaterial {
         if (estudiante.carrera.equals("Industrial")) {
 
         }
-         */
+        */
     }
 }
